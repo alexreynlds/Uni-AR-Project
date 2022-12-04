@@ -7,7 +7,7 @@ Library: lib_burst_generated64
 --float-precision=Standard
 --format=MachO
 --disable-warnings=BC1370
---compilation-defines=UNITY_2021_3_8
+--compilation-defines=UNITY_2021_3_15
 --compilation-defines=UNITY_2021_3
 --compilation-defines=UNITY_2021
 --compilation-defines=UNITY_5_3_OR_NEWER
@@ -37,7 +37,6 @@ Library: lib_burst_generated64
 --compilation-defines=USE_SEARCH_MODULE
 --compilation-defines=USE_PROPERTY_DATABASE
 --compilation-defines=USE_SEARCH_EXTENSION_API
---compilation-defines=SCENE_TEMPLATE_MODULE
 --compilation-defines=ENABLE_AR
 --compilation-defines=ENABLE_AUDIO
 --compilation-defines=ENABLE_CACHING
@@ -85,6 +84,7 @@ Library: lib_burst_generated64
 --compilation-defines=ENABLE_RUNTIME_GI
 --compilation-defines=ENABLE_GAMECENTER
 --compilation-defines=ENABLE_NETWORK
+--compilation-defines=ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
 --compilation-defines=ENABLE_IOS_ON_DEMAND_RESOURCES
 --compilation-defines=ENABLE_IOS_APP_SLICING
 --compilation-defines=PLAYERCONNECTION_LISTENS_FIXED_PORT
@@ -176,12 +176,12 @@ Library: lib_burst_generated64
 --root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Unity.Services.Core.Threading.dll
 --root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Unity.Services.Core.Networking.dll
 --root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll
---root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll
 --root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Unity.Services.Core.Configuration.dll
+--root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll
 --root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Unity.Subsystem.Registration.dll
 --root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll
---root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 --root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll
+--root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 --assembly-folder=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--e943843acfb78f5f2f3716a6553740d9
