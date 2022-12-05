@@ -178,9 +178,9 @@ Library: lib_burst_generated64
 --root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll
 --root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Unity.Services.Core.Configuration.dll
 --root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll
+--root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll
 --root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Unity.Subsystem.Registration.dll
 --root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll
---root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll
 --root-assembly=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 --assembly-folder=/Users/alex/Developer/Programming Projects/Uni-AR-Project/Temp/StagingArea/Data/Managed/
 --pdb-search-paths=Temp/ManagedSymbols/

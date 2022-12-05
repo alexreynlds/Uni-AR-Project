@@ -1058,6 +1058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6612430988273820003}
   - component: {fileID: 946950161440275225}
+  - component: {fileID: 176329592402845994}
   m_Layer: 0
   m_Name: Knight_White
   m_TagString: knight
@@ -1106,6 +1107,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &176329592402845994
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5805072160253344729}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.22255148, y: 0.27961954, z: 0.16738519}
+  m_Center: {x: 0, y: 0.14534663, z: 0}
 --- !u!1 &5896815374487254037
 GameObject:
   m_ObjectHideFlags: 0
