@@ -860,7 +860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arRaycastManager: {fileID: 1243710581}
   arCamera: {fileID: 738678933}
-  knightPrefab: {fileID: 4547215649700540394, guid: b65e849b84eee4ba3ae47dff97e77d4a, type: 3}
+  knightPrefab: {fileID: 5805072160253344729, guid: 088ab24c7225a4231aaeff2722cdd306, type: 3}
 --- !u!4 &1463281039
 Transform:
   m_ObjectHideFlags: 0
