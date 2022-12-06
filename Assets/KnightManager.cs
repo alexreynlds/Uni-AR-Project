@@ -5,6 +5,8 @@ using UnityEngine.XR.ARFoundation;
 public class KnightManager : MonoBehaviour
 {
     // vars
+    private List<ARRaycastHit> arRaycastHits = new List<ARRaycastHit>();
+    private Vector2 touchPosition = default;
     public ARRaycastManager arRaycastManager;
     //Assign camera – should work with main tag but sometimes has issues 
     public Camera arCamera;
@@ -22,7 +24,7 @@ public class KnightManager : MonoBehaviour
             {
                 if (Input.touchCount == 1)
                 {
-                    List<ARRaycastHit> arRaycastHits = new List<ARRaycastHit>();
+
                     //Raycast Planes
                     if (arRaycastManager.Raycast(touch.position, arRaycastHits))
                     {
@@ -65,6 +67,7 @@ public class KnightManager : MonoBehaviour
 
     private void DeleteKnight(GameObject knightObject)
     {
+        Handheld.Vibrate();
         Destroy(knightObject);
         Debug.Log("Destroyed");
     }
