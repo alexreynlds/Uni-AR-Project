@@ -18,5 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Week3.unity
     guid: 6142c7ee971324014bd1c9f41b35539c
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 3a51d46e5adba4f08a330274fbb4abea, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 5dbb419f55b3b47c1aaf820230abbfe6, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 530c3e2dd999f4eeb8331a2ac56289f5, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3c35c6d3822bc4587b58d274869e8c32, type: 2}
